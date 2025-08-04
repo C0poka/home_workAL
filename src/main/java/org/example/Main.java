@@ -22,7 +22,7 @@ public class Main {
         short meaning5 = -159;
         int meaning6 = 27897;
         byte meaning7 = 67;
-        System.out.println("Значение переменной "+"meaning1" + " с типом данных double равно " +meaning1 ); // выведет 27.12
+        System.out.println("Значение переменной "+"meaning1" + " с типом данных double равно " +meaning1 );
         System.out.println("Значение переменной "+"meaning2" + " с типом данных long равно " +meaning2 );
         System.out.println("Значение переменной "+"meaning3" + " с типом данных float равно " +meaning3 );
         System.out.println("Значение переменной "+"meaning4" + " с типом данных short равно " +meaning4 );
@@ -66,7 +66,7 @@ public class Main {
                 " банок белой краски и " + brownBottles + " банок коричневой краски");
         //task 6
         int bananasWeight = 5 * 80;
-        int milkWeight = 200 * 105 / 100; // 200 мл молока = 210 грамм
+        int milkWeight = 200 * 105 / 100; // 200 мл молока = 210 грамм всё сходится
         int iceCreamWeight = 2 * 100;
         int eggsWeight = 4 * 70;
 
@@ -76,7 +76,7 @@ public class Main {
         System.out.println("Вес завтрака в граммах: " + totalGramm + "г");
         System.out.println("Вес завтрака в килограммах: " + totalKg + "кг");
         //task 7
-        int weightToLoose = 7000; // 7 кг = 7000 граммов
+        int weightToLoose = 7000;
         int daysFor250gr = weightToLoose / 250;
         int daysFor500gr = weightToLoose / 500;
         int averageDays = (daysFor250gr + daysFor500gr) / 2;
